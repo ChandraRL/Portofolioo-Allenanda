@@ -329,3 +329,96 @@ footer .social-links a:hover {
   opacity: 1;
   transform: translateY(0);
 }
+
+/* ============================
+   Responsive Design
+   ============================ */
+
+/* Tablet (maks 1024px) */
+@media (max-width: 1024px) {
+  nav {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 12px 20px;
+  }
+  section {
+    padding: 60px 15px;
+  }
+  .hero h1 {
+    font-size: 2.2rem;
+  }
+}
+
+/* Smartphone landscape & small tablet (maks 768px) */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 8px;
+    padding: 12px 10px;
+  }
+  nav a {
+    font-size: 0.95rem;
+  }
+
+  .hero {
+    padding: 60px 15px;
+    min-height: 60vh;
+  }
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+  .hero p,
+  .typed-text {
+    font-size: 1rem;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr; /* 1 kolom */
+  }
+
+  .skills .skill {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .skills .bar {
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 130px;
+    height: 130px;
+  }
+}
+
+/* Smartphone portrait (maks 480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 0.95rem;
+  }
+  h2 {
+    font-size: 1.6rem;
+  }
+  .hero h1 {
+    font-size: 1.6rem;
+  }
+  .hero p,
+  .typed-text {
+    font-size: 0.9rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+
+  .card,
+  .project-card {
+    padding: 20px;
+  }
+
+  .contact form input,
+  .contact form textarea,
+  .contact form button {
+    font-size: 0.95rem;
+  }
+}
+
