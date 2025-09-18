@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Allenanda Sheva Athallah - Portfolio</title>
+  <meta name="description" content="Portfolio of Allenanda Sheva Athallah, Computer Science student passionate in Software Engineering, Web Development, and AI/ML." />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css" />
+
+  <!-- Font Awesome & Google Fonts -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Lato&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero fade-in">
+    <img src="images/profile.jpg" alt="Portrait of Allenanda Sheva Athallah" class="profile-pic" />
+    <h1>👋 Hi, I'm <span class="highlight">Allenanda</span></h1>
+    <p class="typed-text" aria-label="Typing introduction"></p>
+
+    <div class="social-links" aria-label="Social media links">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allenanda.sheva@gmail.com" target="_blank" rel="noopener noreferrer" title="Email Me"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/6282299661392" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://linkedin.com/in/allenanda-sheva-athallah-672a15292" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Lenanda" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
+    </div>
+  </header>
+
+  <!-- Navigation -->
+  <nav aria-label="Main Navigation">
+    <a href="#about">🙋 About</a>
+    <a href="#skills">💡 Skills</a>
+    <a href="#experience">📂 Experience</a>
+    <a href="#projects">🚀 Projects</a>
+    <a href="#education">🎓 Education</a>
+    <a href="#contact">📬 Contact</a>
+    <button id="darkToggle" aria-label="Toggle Dark Mode">🌙</button>
+  </nav>
+
+  <!-- About -->
+  <section id="about" class="fade-in">
+    <h2>🙋 About Me</h2>
+    <div class="card">
+      <p>Halo! Saya <strong>Allenanda Sheva Athallah</strong>, mahasiswa S1 Computer Science di BINUS University. Saya antusias dalam bidang <b>Software Engineering</b>, <b>Web Development</b>, dan <b>Artificial Intelligence</b>. Berpengalaman dalam pengembangan perangkat lunak, debugging, serta kolaborasi tim.</p>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="fade-in">
+    <h2>💡 Skills</h2>
+    <div class="card skills">
+      <div class="skill"><span>🖥️ HTML</span><div class="bar"><div data-skill="95"></div></div></div>
+      <div class="skill"><span>🎨 CSS</span><div class="bar"><div data-skill="90"></div></div></div>
+      <div class="skill"><span>⚡ JavaScript</span><div class="bar"><div data-skill="85"></div></div></div>
+      <div class="skill"><span>🐍 Python</span><div class="bar"><div data-skill="90"></div></div></div>
+      <div class="skill"><span>🤖 AI/ML</span><div class="bar"><div data-skill="75"></div></div></div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="fade-in">
+    <h2>📂 Experience</h2>
+    <div class="card">
+      <h3>🛠️ Software Engineer (Part-Time) - Jupiter IT Solutions</h3>
+      <p><i>March – May 2022, Samarinda</i></p>
+      <p>Contributed as a Software Engineer in maintaining applications, debugging, testing, and enhancing features. Collaborated using GitHub for version control.</p>
+    </div>
+    <div class="card">
+      <h3>🤝 Member - HIMTI BINUS</h3>
+      <p><i>2023 – 2024</i></p>
+      <p>Participated in organizing academic and non-academic events, and engaged in knowledge-sharing sessions about programming and software engineering.</p>
+    </div>
+    <div class="card">
+      <h3>🎓 Education Counselor - BINUS University</h3>
+      <p><i>2024 – 2025</i></p>
+      <p>Involved in offering BINUS scholarship programs to high school students and sharing information about campus life, facilities, and programs.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="fade-in">
+    <h2>🚀 Projects</h2>
+    <div class="projects-container">
+      <div class="project-card">
+        <h3>⏰ SubDue</h3>
+        <p>Reminder subscription website using JSON, CSS, and JavaScript. Applied version control with GitHub.</p>
+        <a href="https://github.com/Lenanda/SubDue" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </div>
+      <div class="project-card">
+        <h3>🌐 Portfolio Website</h3>
+        <p>Personal portfolio website built with HTML, CSS, and JavaScript to showcase skills and experience.</p>
+        <a href="https://github.com/Lenanda" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education -->
+  <section id="education" class="fade-in">
+    <h2>🎓 Education</h2>
+    <div class="card">
+      <h3>BINUS University</h3>
+      <p><i>2023 – 2027</i> | Bachelor of Computer Science (S1)</p>
+    </div>
+    <div class="card">
+      <h3>SMK Negeri 7 Samarinda</h3>
+      <p><i>2020 – 2023</i> | Major: Rekayasa Perangkat Lunak</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="fade-in">
+    <h2>📬 Contact</h2>
+    <div class="card contact">
+      <form action="mailto:allenanda.sheva@gmail.com" method="post" enctype="text/plain">
+        <input type="text" placeholder="✍️ Nama" required />
+        <input type="email" placeholder="📧 Email" required />
+        <textarea placeholder="💬 Pesan" required></textarea>
+        <button type="submit">Send ✈️</button>
+      </form>
+      <p style="text-align:center;margin-top:10px;">Or reach me directly on <a href="https://wa.me/6282299661392" target="_blank" rel="noopener noreferrer">WhatsApp</a></p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Allenanda Sheva Athallah | Made with ❤️</p>
+    <div class="social-links">
+      <a href="https://mail.google.com/mail/?view=cm&fs=1&to=allenanda.sheva@gmail.com" target="_blank" rel="noopener noreferrer" title="Email Me"><i class="fas fa-envelope"></i></a>
+      <a href="https://wa.me/6282299661392" target="_blank" rel="noopener noreferrer" title="Chat on WhatsApp"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://linkedin.com/in/allenanda-sheva-athallah-672a15292" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/Lenanda" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+</body>
+</html>
